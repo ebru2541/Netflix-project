@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Netflix-new-icon.png/800px-Netflix-new-icon.png"
+        type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
@@ -21,28 +24,28 @@
             <div class="survey-form">
                 <form action="#">
                     <div>
-                        <div>
+                        <div class="my-input">
                             <label for="name">Name</label><br>
                             <input type="text" id="name" placeholder="Enter your name">
                         </div>
-                        <div>
+                        <div class="my-input">
                             <label for="name">Age</label><br>
                             <input type="text" id="age" placeholder="Age">
                         </div>
-                        <div>
-                            <label for="name">Name</label><br>
-                            <input type="text" id="name" placeholder="Enter your email">
+                        <div class="my-input">
+                            <label for="email">Email</label><br>
+                            <input type="text" id="email" placeholder="Enter your email">
                         </div>
                         <div>
                             <label for="content">Content Type</label><br>
-                            <select name="" id="content">
+                            <select name="#" id="content">
                                 <option value="series">Series</option>
-                                <option value="comedy">Comedy</option>
-                                <option value="drama">Drama</option>
-                                <option value="action">Action</option>
+                                <option value="movies">Movies</option>
+                                <option value="documentary">Documentary</option>
+                                <option value="biography">Biography</option>
                             </select>
                         </div>
-                        <div>
+                        <div class="box">
                             <label for="#">Movie Type</label>
                             <div>
                                 <input type="checkbox" id="comedy">
@@ -50,15 +53,15 @@
                             </div>
                             <div>
                                 <input type="checkbox" id="action">
-                                <label for="comedy">Action</label>
+                                <label for="action">Action</label>
                             </div>
                             <div>
-                                <input type="checkbox" id="comedy">
+                                <input type="checkbox" id="romance">
                                 <label for="romance">Romance</label>
                             </div>
 
                         </div>
-                        <div>
+                        <div class="box">
                             <label for="#">Gender</label>
                             <div>
                                 <input type="radio" id="male" name="gender">
@@ -83,9 +86,6 @@
                         </div>
 
                     </div>
-
-
-
                 </form>
             </div>
         </div>

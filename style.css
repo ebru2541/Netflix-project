@@ -5,6 +5,7 @@
 }
 body {
   height: 100vh;
+  width: 100vm;
   background: #ffffff;
   background-image: url("./netflix-background-image\ 1.png");
   background-position: center;
@@ -26,7 +27,7 @@ form {
   border-radius: 5px;
   padding: 15px 20px;
   color: #c4c4c4;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans- serif;
   font-size: 14px;
 }
 
@@ -41,4 +42,33 @@ span {
 p {
   font-family: "Sorts Mill Goudy", serif;
   font-size: 23px;
+  margin-bottom: 15px;
+}
+.my-input {
+  margin-bottom: 10px;
+}
+.my-input input {
+  display: inline-block;
+  width: 200px;
+  border: none;
+  border-radius: 3px;
+  padding: 6px;
+}
+form div select {
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+}
+.box {
+  margin: 10px 0px;
+}
+.button {
+  text-align: center;
+}
+.button input {
+  border-radius: 20px;
+  padding: 5px 12px;
+  margin-top: 6px;
+  background-color: #ff0000;
+  color: aliceblue;
 }
